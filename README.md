@@ -2,12 +2,15 @@
 
 ## Przetwarzanie potokowe z buforem
 
-	Bufor o rozmiarze N - wspólny dla wszystkich procesow!
-	Proces A będacy producentem.
-	Proces Z będacy konsumentem.
-	Procesy B, C, ..., Y będace procesami przetwarzajacymi. Każdy proces otrzymuje daną wejściową od procesu poprzedniego, jego wyjscie zas jest konsumowane przez proces następny.
-	Procesy przetwarzają dane w miejscu, po czym przechodzą do kolejnej komórki bufora i znowu przetwarzają ją w miejscu.
-	Procesy dzialają z różnymi prędkościami.
+ 	Bufor o rozmiarze N - wspólny dla wszystkich procesow!  
+ 	Proces A będacy producentem.  
+ 	Proces Z będacy konsumentem.  
+ 	Procesy B, C, ..., Y będace procesami przetwarzajacymi. 
+ 	Każdy proces otrzymuje daną wejściową od procesu poprzedniego, jego wyjscie zas jest konsumowane  
+	przez proces następny.
+ 	Procesy przetwarzają dane w miejscu, po czym przechodzą do kolejnej komórki bufora i znowu  
+	przetwarzają ją w miejscu.
+ 	Procesy dzialają z różnymi prędkościami.
 
 
 Zaimplementować rozwiązanie przetwarzania potokowego (Przykładowe załozenia: bufor rozmiaru 100, 1 producent, 1 konsument, 5 uszeregowanych procesów przetwarzających.) 
